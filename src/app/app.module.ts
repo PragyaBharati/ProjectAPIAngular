@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { DetailsComponent } from './details/details.component';
 import { DisplayComponent } from './display/display.component';
 import { LabourComponent } from './labour/labour.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LabourComponent } from './labour/labour.component';
     RegisterComponent,
     DetailsComponent,
     DisplayComponent,
-    LabourComponent
+    LabourComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
